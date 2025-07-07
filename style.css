@@ -371,3 +371,49 @@ body {
 .cart:hover svg {
   fill: #000;
 }
+
+
+#product1 .pro img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  object-position: center;
+  display: block;
+  border-radius: 10px;
+}
+
+/* Base styling - good for medium screens (tablets/laptops) */
+#product1 .pro img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  object-position: center;
+  display: block;
+  border-radius: 10px;
+  background-color: #fff; /* Optional fallback */
+}
+
+/* Small screens - avoid cropping */
+@media (max-width: 768px) {
+  #product1 .pro img {
+    height: 180px;
+    object-fit: contain;
+  }
+}
+
+/* Extra large screens - increase image height for visual balance */
+@media (min-width: 1440px) {
+  #product1 .pro img {
+    height: 250px;
+  }
+}
+
+/* Ultra-wide screens - maintain ratio and max size */
+@media (min-width: 1920px) {
+  #product1 .pro img {
+    height: 280px;
+    object-fit: cover;
+  }
+}
+
+

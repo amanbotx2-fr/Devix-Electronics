@@ -30,16 +30,7 @@ Devix Electronics is a modern, responsive front-end e-commerce website built usi
 
 ## 📂 Project Structure
 
-Devix-Electronics/
-├── index.html
-├── style.css
-├── dark_light_mode.css
-├── responsive.css
-├── images/ # All product and icon images
-├── shop.html
-├── about.html
-├── contact.html
-└── cart.html # (under work)
+## 📂 Project Structure ``` Devix-Electronics/ ├── index.html ├── style.css ├── dark_light_mode.css ├── responsive.css ├── images/ # All product and icon images ├── shop.html ├── about.html ├── contact.html └── cart.html # (under work) ```
 
 
 ---

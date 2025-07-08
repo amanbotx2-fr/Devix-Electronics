@@ -1,0 +1,111 @@
+/* ===== Responsive CSS ===== */
+
+/* Phones (max-width: 768px) */
+@media (max-width: 768px) {
+  #header {
+    flex-direction: column;
+    padding: 10px;
+  }
+
+  #navbar {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  #navbar li {
+    margin: 10px 0;
+  }
+
+  #hero {
+    padding: 0 20px;
+    background-position: center;
+    text-align: center;
+    align-items: center;
+  }
+
+  #hero h1 {
+    font-size: 32px;
+  }
+
+  #hero h2 {
+    font-size: 28px;
+  }
+
+  #hero h4 {
+    font-size: 16px;
+  }
+
+  .cta {
+    font-size: 18px;
+    padding: 8px 20px;
+  }
+
+  .section-p1 {
+    padding: 20px;
+  }
+
+  .feature-box {
+    width: 100%;
+    max-width: 300px;
+  }
+
+  #product1 .pro {
+    width: 90%;
+  }
+
+  #newsletter {
+    flex-direction: column;
+    padding: 20px;
+    gap: 20px;
+  }
+
+  .form {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  #banner {
+    padding: 10px;
+    height: auto;
+  }
+}
+
+/* Tablets (769px - 1024px) */
+@media (min-width: 769px) and (max-width: 1024px) {
+  .section-p1 {
+    padding: 30px 40px;
+  }
+
+  #hero {
+    padding: 0 40px;
+    background-position: center right;
+  }
+
+  #product1 .pro {
+    width: 45%;
+  }
+
+  #newsletter {
+    gap: 20px;
+    padding: 30px;
+  }
+}
+
+/* Large Desktops (1440px and up) */
+@media (min-width: 1440px) {
+  #product1 .pro img {
+    height: 250px;
+  }
+}
+
+/* Ultra-Wide Screens (1920px and up) */
+@media (min-width: 1920px) {
+  #product1 .pro img {
+    height: 280px;
+    object-fit: cover;
+  }
+
+  .section-p1 {
+    padding: 60px 120px;
+  }
+}
